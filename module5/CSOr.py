@@ -32,11 +32,11 @@ clf.fit(X_train,y_train)
 prediction = clf.predict(X_test)
 # precentage = 100/len(prediction)
 # print(precentage)
-
+count = 0
+count_wrong = 0
 
 for row in range(len(y_test)):
-    count = 0
-    count_wrong = 0
+
     if y_test[row] == prediction[row]:
         count += 1
     else:

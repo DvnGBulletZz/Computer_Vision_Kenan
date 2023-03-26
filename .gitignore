@@ -1,0 +1,5 @@
+# Anything explicitly ignored
+gitignored/
+
+*.jpeg
+*.jpg
